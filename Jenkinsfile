@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     triggers {
-        
+        //make an edit here !!! 
         pollSCM('H/2 * * * *') 
     }
 
