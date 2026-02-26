@@ -5,6 +5,7 @@ pipeline {
         //make an edit here !!! 
         pollSCM('H/2 * * * *') 
     }
+    // free style build etdition 
 
     stages {
         stage('Build') {
